@@ -2,7 +2,7 @@
 % Please edit documentation in R/range.R
 \name{range}
 \alias{range}
-\title{Range}
+\title{calculate the range}
 \usage{
 range(x, remove_na = FALSE)
 }
@@ -15,7 +15,7 @@ range(x, remove_na = FALSE)
 A vector containing the range of the input data
 }
 \description{
-Range
+calculate the range
 }
 \examples{
 range(c(1,5,9,0,NA),remove_na = TRUE)

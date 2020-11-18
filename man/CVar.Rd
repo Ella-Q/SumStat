@@ -2,7 +2,7 @@
 % Please edit documentation in R/CVar.R
 \name{CVar}
 \alias{CVar}
-\title{Coefficient of variation}
+\title{calculate the coefficient of variation}
 \usage{
 CVar(x, remove_na = FALSE, ...)
 }
@@ -17,7 +17,7 @@ CVar(x, remove_na = FALSE, ...)
 A vector containing the coefficient of variation of the input data
 }
 \description{
-Coefficient of variation
+calculate the coefficient of variation
 }
 \examples{
 CVar(c(1:4))

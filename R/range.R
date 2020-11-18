@@ -1,4 +1,4 @@
-#' Range
+#' calculate the range
 #'
 #' @param x a numeric vector.
 #' @param remove_na a logical value indicating whether NA values should be contained in the computation. The default value is _FALSE_.
