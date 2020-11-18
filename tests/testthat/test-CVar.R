@@ -7,7 +7,7 @@ test_that("calculations work for vector containing NA's", {
                mean(c(1:4,NA),na.rm = T)/sd(c(1:4,NA),na.rm = T))
 })
 
-test_that("calculations work for a numeric list", {
-  expect_equal(CVar(list(1:4,2:5)), c(mean(1:4)/sd(1:4),mean(2:5)/sd(2:5)))
+test_that("error message", {
+  expect_error(CVar(c(1:4,"A")), "The input values are not numeric vectors\n")
 })
 
