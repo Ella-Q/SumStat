@@ -1,0 +1,25 @@
+---
+title: "range"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{range}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(SumStat)
+```
+
+This is how the range function works:
+```{r}
+range(gapminder::gapminder$gdpPercap)
+```
+
