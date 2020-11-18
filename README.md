@@ -12,8 +12,7 @@ range of given data.
 
 ## Installation
 
-You can install the released version of SumStat from
-[CRAN](https://CRAN.R-project.org) with:
+You can install the pre-released version of SumStat with:
 
 ``` r
 devtools::install_github("Ella-Q/SumStat")
