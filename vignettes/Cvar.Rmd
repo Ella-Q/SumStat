@@ -1,8 +1,8 @@
 ---
-title: "range"
+title: "Cvar"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{range}
+  %\VignetteIndexEntry{Cvar}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -18,9 +18,8 @@ knitr::opts_chunk$set(
 library(SumStat)
 ```
 
-This is how the range function works:
+This is how the `CVar` function works:
 ```{r}
-# calcualte the range of GDP per capita from the gapminder dataset
-range(gapminder::gapminder$gdpPercap)
+# calcualte the coefficient of variation of GDP per capita from the gapminder dataset
+CVar(gapminder::gapminder$gdpPercap, remove_na = T)
 ```
-
